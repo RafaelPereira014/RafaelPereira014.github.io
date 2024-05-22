@@ -8,19 +8,18 @@ I am a passionate software developer with a knack for creating innovative soluti
 
 ## Skills
 
-- **Languages:** JavaScript, Python, Java, C++
-- **Frameworks:** React, Node.js, Django, Flask
-- **Databases:** MongoDB, MySQL, PostgreSQL
-- **Tools:** Git, Docker, Jenkins, AWS
-- **Other:** Agile methodologies, TDD, RESTful APIs
+- **Languages:** JavaScript, Python, Java, C++,C
+- **Frameworks:** React, Node.js,Flask
+- **Databases:** MariaDB, MySQL
+- **Tools:** Git, Docker
 
 ## Projects
 
-### [Project 1: Innovative Web App](https://github.com/username/project1)
+### [Project 1: Intelligent mirror room](https://github.com/username/project1)
 
 An innovative web application designed to streamline task management. It features real-time collaboration and integrates with various third-party services.
 
-![Innovative Web App](https://via.placeholder.com/600x400.png?text=Project+1+Image)
+![Innovative Web App](images/)
 
 - **Technologies:** React, Node.js, MongoDB
 - **Features:**
@@ -28,52 +27,60 @@ An innovative web application designed to streamline task management. It feature
   - User authentication and authorization
   - Task assignment and tracking
 
-### [Project 2: AI-Powered Chatbot](https://github.com/username/project2)
+### [Project 2: Moodle instances running on docker](https://github.com/username/project2)
+
+The purpose of the project was to deploy N schools from a datacenter into docker containers , to be able to manage them separately , instead of being all on the same server.
+
+![AI-Powered Chatbot](https://via.placeholder.com/600x400.png?text=Project+2+Image)
+
+- **Technologies:** Docker, shell
+- **Features:**
+  - Easier management and deployment
+  - Integration with multiple data sources
+
+### [Project 3: Helpdesk ticketing system](https://github.com/username/project3)
+
+The Helpdesk Ticketing System is a web application designed to streamline the process of managing support tickets within an organization. It allows users to submit new support requests, track the status of their requests, and assign tickets to support engineers. This system aims to improve efficiency and communication in handling support issues.
+
+![Innovative Web App](images/loginhelpdesk.png)
+![Innovative Web App](images/paginahelpdesk.png)
+
+- **Technologies:** MariaDB, Python, Flask, javascript, HTML , CSS
+- **Features:**
+  - Ticket Creation and Tracking: Allow users to easily submit support requests or report issues, and provide them with the ability to track the progress of their tickets from submission to resolution.
+  - Ticket Assignment and Prioritization: Ensure tickets are assigned to the appropriate agents or teams based on workload or expertise, and prioritize them based on urgency to streamline the resolution process.
+  - Knowledge Base and Self-Service Portal: Offer users access to a comprehensive knowledge base containing articles, FAQs, troubleshooting guides, and tutorials to help them resolve common issues independently through a user-friendly self-service portal.
+  - Communication and Collaboration Tools: Enable seamless communication and collaboration among support agents through features such as email integration for ticket updates, internal notes for sharing insights, and collaborative tools for resolving tickets efficiently.
+
+
+### [Project 4: REDA Education Platform](https://github.com/username/project2)
 
 An AI-powered chatbot that helps users find information quickly and easily. It uses natural language processing to understand and respond to user queries.
 
 ![AI-Powered Chatbot](https://via.placeholder.com/600x400.png?text=Project+2+Image)
 
-- **Technologies:** Python, Flask, TensorFlow
+- **Technologies:** MariaDB, Python, Flask, javascript, HTML , CSS
 - **Features:**
   - Natural language understanding
   - Integration with multiple data sources
   - User-friendly interface
 
-### [Project 3: E-commerce Platform](https://github.com/username/project3)
-
-A fully functional e-commerce platform with a focus on performance and scalability. It includes features like product management, shopping cart, and payment processing.
-
-![E-commerce Platform](https://via.placeholder.com/600x400.png?text=Project+3+Image)
-
-- **Technologies:** Java, Spring Boot, PostgreSQL
-- **Features:**
-  - Secure payment gateway integration
-  - Product catalog and search functionality
-  - User reviews and ratings
-
 ## Experience
 
-### Software Developer at TechCorp
-*Jan 2021 - Present*
+### Trainee | Software Developer @NIT, Secretaria Regional da Educação,Desporto e Cultura
+*Jan 2024 - Present*
 
-- Led the development of a customer relationship management system, improving client engagement by 30%.
-- Implemented CI/CD pipelines, reducing deployment time by 50%.
-- Collaborated with cross-functional teams to design and launch a new mobile application.
+- Participated on the reinstruction, development and management of moodle using docker images.
+- Led the development of a Ticketing system.
+- Led the development of a Education platform.
 
-### Junior Developer at DevSolutions
-*Aug 2018 - Dec 2020*
 
-- Developed and maintained web applications using JavaScript and Python.
-- Participated in code reviews and implemented best practices to enhance code quality.
-- Assisted in the migration of legacy systems to modern frameworks.
+
 
 ## Education
 
-### Bachelor of Science in Computer Science
-*University of Technology, 2018*
-
-- Relevant coursework: Data Structures, Algorithms, Database Systems, Software Engineering
+### Degree in Computers and IT Engeneering
+*Universidade de Aveiro, 2023*
 
 ## Contact
 
