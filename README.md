@@ -17,7 +17,10 @@ I am a passionate software developer with a knack for creating innovative soluti
 ## Projects
 
 ### [Project 1: Innovative Web App](https://github.com/username/project1)
+
 An innovative web application designed to streamline task management. It features real-time collaboration and integrates with various third-party services.
+
+![Innovative Web App](https://via.placeholder.com/600x400.png?text=Project+1+Image)
 
 - **Technologies:** React, Node.js, MongoDB
 - **Features:**
@@ -26,7 +29,10 @@ An innovative web application designed to streamline task management. It feature
   - Task assignment and tracking
 
 ### [Project 2: AI-Powered Chatbot](https://github.com/username/project2)
+
 An AI-powered chatbot that helps users find information quickly and easily. It uses natural language processing to understand and respond to user queries.
+
+![AI-Powered Chatbot](https://via.placeholder.com/600x400.png?text=Project+2+Image)
 
 - **Technologies:** Python, Flask, TensorFlow
 - **Features:**
@@ -35,7 +41,10 @@ An AI-powered chatbot that helps users find information quickly and easily. It u
   - User-friendly interface
 
 ### [Project 3: E-commerce Platform](https://github.com/username/project3)
+
 A fully functional e-commerce platform with a focus on performance and scalability. It includes features like product management, shopping cart, and payment processing.
+
+![E-commerce Platform](https://via.placeholder.com/600x400.png?text=Project+3+Image)
 
 - **Technologies:** Java, Spring Boot, PostgreSQL
 - **Features:**
