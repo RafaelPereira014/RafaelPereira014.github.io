@@ -4,98 +4,158 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rafael Pereira | Portfolio</title>
+
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <nav>
-    <div class="logo">Rafael Pereira</div>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <span class="navbar-brand logo">Rafael Pereira</span>
+
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        ☰
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section id="hero">
-    <div class="hero-content">
+  <!-- HERO -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container text-center hero-content">
       <h1>Hello, I'm <span>Rafael Pereira</span></h1>
       <p>Full Stack Developer | IT Engineer | Tech Enthusiast</p>
       <a href="#projects" class="btn">See My Work</a>
     </div>
   </section>
 
-  <!-- About Section -->
+  <!-- ABOUT -->
   <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I'm a passionate developer specializing in creating high-tech and reliable applications.
-      I love combining design with functionality to craft innovative solutions.
-    </p>
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate developer specializing in creating high-tech and reliable applications.
+        I love combining design with functionality to craft innovative solutions.
+      </p>
+    </div>
   </section>
 
-  <!-- Skills Section -->
+  <!-- SKILLS -->
   <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills-container">
-      <div class="skill">Python</div>
-      <div class="skill">JavaScript</div>
-      <div class="skill">Flask</div>
-      <div class="skill">Docker</div>
-      <div class="skill">MySQL</div>
-      <div class="skill">Linux</div>
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-container justify-content-center">
+        <div class="skill">Python</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Flask</div>
+        <div class="skill">Docker</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">Linux</div>
+      </div>
     </div>
   </section>
 
-  <!-- Projects Section -->
+  <!-- PROJECTS -->
   <section id="projects">
-    <h2>Public Projects</h2>
-    <div class="projects-container">
-      <div class="project-card">
-        <h3>SRECD</h3>
-        <p>Migration of all school websites (individual institutional sites and Moodle platforms) to a containerized infrastructure using modern container technologies, ensuring scalability, isolation, and easier maintenance.</p>
-      </div>
-      <div class="project-card">
-        <h3>SRECD</h3>
-        <p>Design and development of a digital resources platform for students and teachers, enabling centralized access to educational materials, tools, and documentation.</p>
-        <a href="https://reda.edu.azores.gov.pt" class="btn">View Project</a>
-      </div>
-      <div class="project-card">
-        <h3>SRECD</h3>
-        <p>Development of a merit awards management platform for students from the Azores, including nomination workflows, evaluation processes, and result management.</p>
-        <a href="https://premio-merito.edu.azores.gov.pt" class="btn">View Project</a>
-      </div>
-      <div class="project-card">
-        <h3>SRECD</h3>
-        <p>Creation of an online training platform for teachers, supporting course management, learning content delivery, and participant tracking.</p>
-      </div>
-      <div class="project-card">
-        <h3>Sc Angrense</h3>
-        <p>Deployment and full technical management of a website for <em>ScAngrense</em>, including server configuration, hosting, security, updates, and ongoing maintenance.</p>
-        <a href="https://scangrense.pt" class="btn">View Project</a>
+    <div class="container">
+      <h2>Public Projects</h2>
+
+      <div class="projects-container">
+        <div class="project-card">
+          <h3>SRECD</h3>
+          <p>
+            Migration of all school websites (institutional and Moodle platforms) to a containerized
+            infrastructure, ensuring scalability and easier maintenance.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>SRECD</h3>
+          <p>
+            Design and development of a digital resources platform for students and teachers.
+          </p>
+          <a href="https://reda.edu.azores.gov.pt" class="btn" target="_blank">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <h3>SRECD</h3>
+          <p>
+            Development of a merit awards management platform for students from the Azores.
+          </p>
+          <a href="https://premio-merito.edu.azores.gov.pt" class="btn" target="_blank">View Project</a>
+        </div>
+
+        <div class="project-card">
+          <h3>SRECD</h3>
+          <p>
+            Creation of an online training platform for teachers with course and participant management.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Sc Angrense</h3>
+          <p>
+            Deployment and full technical management of the <em>ScAngrense</em> website.
+          </p>
+          <a href="https://scangrense.pt" class="btn" target="_blank">View Project</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
+  <!-- CONTACT -->
   <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Feel free to reach out via email or GitHub.</p>
-    <div class="contact-links">
-      <a href="mailto:rafaelpereira0808@gmail.com" class="btn">Email Me</a>
-      <a href="https://github.com/RafaelPereira014" class="btn">GitHub</a>
-      <a href="www.linkedin.com/in/rafael-pereira014" class="btn">LinkedIn</a>
-      <a target="_blank" href="https://www.zaask.pt/user/rafaelpereira014"><img src="https://www.zaask.pt/widget?user=1015204&widget=pro-findme" alt="" /></a>
+    <div class="container text-center">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out via email, GitHub, or LinkedIn.</p>
+
+      <div class="contact-links flex-wrap justify-content-center">
+        <a href="mailto:rafaelpereira0808@gmail.com" class="btn">Email</a>
+        <a href="https://github.com/RafaelPereira014" class="btn" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/rafael-pereira-014/" class="btn" target="_blank">LinkedIn</a>
+      </div>
+
+      <!-- Zaask Widget -->
+      <div class="mt-3">
+        <a target="_blank" href="https://www.zaask.pt/user/rafaelpereira014">
+          <img
+            src="https://www.zaask.pt/widget?user=1015204&widget=pro-findme"
+            alt="Zaask Profile"
+            class="img-fluid"
+          >
+        </a>
+      </div>
     </div>
   </section>
 
+  <!-- FOOTER -->
   <footer>
     <p>&copy; 2026 Rafael Pereira. Built with ❤️ and tech.</p>
   </footer>
 
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
   <script src="script.js"></script>
 </body>
 </html>
