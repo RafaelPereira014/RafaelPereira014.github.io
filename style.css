@@ -159,3 +159,6 @@ footer {
   background: #001f3f;
   margin-top: 2rem;
 }
+html {
+  scroll-behavior: smooth;
+}
